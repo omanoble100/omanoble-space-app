@@ -22,7 +22,7 @@
 
 
 .home-section__title {
-    width: 55%;
+    width: 40%;
 }
 
 .home-section__title h3 {
@@ -57,7 +57,7 @@
     font-size: 18px;
     line-height: 32px;
    
-    width: 450px;
+    /* width: 450px; */
 
     color: #D0D6F9;
 }
@@ -172,4 +172,11 @@
     .home-section__content{
         margin-top: 0px;
     }
+}
+
+@media screen and (max-width: 550px){
+    .home-section__title h1 {
+        font-size: 90px;
+    }
+
 }
