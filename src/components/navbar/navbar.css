@@ -1,0 +1,167 @@
+
+
+.space__navbar-container {
+    display: flex;
+    position:absolute;
+    width: 100%;   
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.8s, transform 0,5s 0.5s;
+    padding: 2rem 0 2rem 2rem ;
+}
+
+/* .space__navbar-logo {
+    
+} */
+
+
+
+.space__narvar-line {
+   
+    width: 373px;
+    height: 1px;
+   
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    z-index: 10;
+}
+
+.space__narvar-links {
+    
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    padding: 2.5rem 1rem;
+    
+    /* width: 50%; */
+}
+
+.space__narvar-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+
+    margin: 0 1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    
+}
+
+.view{
+    border-bottom: 3px solid white;
+}
+
+.space__narvar-links a span {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    
+}
+
+.space__hamburger {
+    display: none;
+}
+
+.space__hamburger-mobile {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.925);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.space__hamburger-mobile h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.space__hamburger-mobile a {
+  
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 4rem;
+    margin: 0 1rem;
+    font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .space__narvar-line {
+        width: 390px;
+        z-index: 10;
+    }
+    
+   
+    .space__narvar-links a {
+        margin: 0 .8rem;
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        letter-spacing: 2.3625px;
+
+        color: #FFFFFF;
+    }
+
+    
+    
+   
+}
+
+@media screen and (max-width: 973px) {
+
+    .space__narvar-line{
+        display: none;
+        
+    }
+    
+   
+}
+
+@media screen and (max-width: 768px) {
+
+    .space__narvar-links a span {
+        display: none;
+        
+    }
+    
+   
+}
+
+@media screen and (max-width: 550px) {
+
+    .space__narvar-links  {
+        display: none;
+        
+    }
+
+    .space__hamburger {
+        display: flex;
+        color: white;
+        justify-content:space-around;
+        margin-right:2rem;
+    }
+
+    
+    
+   
+}
