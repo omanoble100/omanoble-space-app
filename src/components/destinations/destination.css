@@ -46,7 +46,7 @@
 }
 
 .destination-section__content {
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -91,7 +91,7 @@
 }
 
 .destinantion-link-content {
-    width: 10px;
+    /* width: 10px; */
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
@@ -172,11 +172,15 @@
 
 
 @media screen and (max-width: 1024px) {
-    
+    .destination-section-links{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 970px) {
 
+    
     
     .destination-section {
         align-items: center;
@@ -197,6 +201,7 @@
     .destination-section-links{
 
         margin-right: 0;
+
     }
 
     .destination-link-content {

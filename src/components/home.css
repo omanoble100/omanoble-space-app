@@ -179,4 +179,8 @@
         font-size: 90px;
     }
 
+    .home-section__content {
+        padding-bottom: 70px;
+    }
+
 }

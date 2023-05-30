@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Destination from './components/destinations/Destination';
 
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Crews from './components/crews/Crews';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />}/>
             <Route path="/destination" exact element={<Destination />}/>
+            <Route path="/crews" exact element={<Crews />}/>
             
           </Routes>
     </BrowserRouter>
