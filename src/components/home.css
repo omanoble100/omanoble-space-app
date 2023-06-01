@@ -88,11 +88,12 @@
 }
 
 @media screen and (max-width: 1024px) {
-
-   
-
+    .space__home-section{
+        height: 100%;
+    }
+ 
     .home-section {
-        height: 120vh;
+        /* height: 120vh; */
         padding: 200px 0px;
         width: 85%;
     }
@@ -175,12 +176,22 @@
 }
 
 @media screen and (max-width: 550px){
+   
+
     .home-section__title h1 {
         font-size: 90px;
     }
 
     .home-section__content {
-        padding-bottom: 70px;
+        padding-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+
+    .home-section__content-item {
+        margin-top: -30px;
     }
 
 }

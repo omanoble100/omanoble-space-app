@@ -180,7 +180,9 @@
 
 @media screen and (max-width: 970px) {
 
-    
+    .space__destination-section h2 {
+        padding-left: 3rem;
+    }
     
     .destination-section {
         align-items: center;
